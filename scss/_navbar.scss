@@ -1,0 +1,47 @@
+// Navbar SCSS
+
+.navbar {
+	padding: $mp-3 $mp-2 ;
+	display: flex;
+	flex-wrap: wrap;
+
+	.logo {
+		flex: 25%;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: inline-flex;
+		flex: 75%;
+		justify-content: right;
+
+		li {
+			padding: $mp-1;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+
+		.logo {
+			padding: 20px 0;
+		}
+	}
+}
+
+@media (max-width: 425px) {
+	.navbar {
+		ul {
+			li {
+				padding: 7px;
+			}
+		}
+	}
+}
