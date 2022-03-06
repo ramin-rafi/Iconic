@@ -1,25 +1,42 @@
 // Navbar SCSS
 
 .navbar {
-	padding: $mp-3 $mp-2 ;
+	padding: $mp-1 $mp-2 ;
 	display: flex;
 	flex-wrap: wrap;
 
 	.logo {
 		flex: 25%;
+		padding: 0 25px;
+
+		h1 {
+			font-size: 40px;
+			line-height: 52px;
+			margin: 0;
+			padding: 15px;
+			color: $black;
+		}
 	}
 
-	ul {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		display: inline-flex;
+	.menu {
 		flex: 75%;
-		justify-content: right;
-
-		li {
-			padding: $mp-1;
+		text-align: right;
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: inline-flex;
+			border-left: 1px solid $darkgray;
+			li {
+				padding: 10px;
+				text-transform: uppercase;
+				font-weight: 600;
+			}
 		}
+	}
+
+	.nav-btn {
+		color: $darkorange;
 	}
 }
 

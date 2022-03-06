@@ -6,33 +6,87 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="./css/style.css" />
-		<title>Minimal</title>
+		<title>Iconic</title>
 	</head>
 	<body>
 		<!-- header -->
-		<header class="container" id="header">
+		<header class="container-fluid" id="header">
             <!-- Navbar -->
-			<nav class="navbar">
+			<nav class="navbar container">
                 <!-- Logo -->
                 <div class="logo">
                     <a href="#">
-                        <img src="./img/logo.png" alt="Logo here" />
+                        <img src="./img/logo.png" alt="Image here">
                     </a>
                 </div>
                 <!-- Nav items -->
-				<ul class="menu">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
+                <div class="menu">
+                    <ul class="nav-items">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                    <ul class="nav-btn">
+                        <li>Signup</li>
+                        <li>Login</li>
+                    </ul>
+                </div>
 			</nav>
 		</header>
-		<!--- Main body -->
-		<main class="container main-body" id="main-body">
+        <!--- iconic banner-->
+        <section class="container banner" id="banner">
+            <div class="banner-content">
+                <h2 class="py-0 text-white">HOT DAMN! THIS IS THE PRODUCT
+                    YOU’VE BEEN WAITING FOR!</h2>
+                <h4 class="py-0 text-white">ISN’T IT ABOUT TIME YOU STARTED WORKING WITH
+                    A PRODUCT LIKE THIS... LET’S GET STARTED!</h4>
+            </div>
+            <div class="banner-image">
+                <img src="./img/laptop.png" alt="Image here">
+            </div>
+        </section>
+         <!--- iconic main body -->
+        <main class="container main-body" id="main-body">
+            <!--- signup pannel" -->
+            <div class="row signup-panel">
+                <div class="tagline">
+                    <h4 class="text-black"><i>This is your tagline. Tell your viewers who you are. 
+                    Be loud, confident, & sophisticated.</i></h4>
+                </div>
+                <div class="signup-btns">
+                    <a class="btn-primary" href="#">sign up now</a>
+                    <a class="btn-primary" href="#">learn more</a>
+                </div>
+            </div>
+            <!-- Article -->
+            <article class="article" id="article">
+                <h3 class="text-black">WHAT DO WE DO?</h3>
+                <!-- Cards -->
+                <div class="card-row">
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h4> This is a Headline! </h4>
+                        <p>Aenean tincidunt pharetra leo. Curabitur euismod sollicitudin elit. Donec faucibus lacus nec sapien. Aliquam ipsum nisi, scelerisque et, commodo nec, consectetur vel, tellus. Cras ipsum diam, hendrerit id, accumsan sit amet, fermentum vel, dui. Morbi blandit commodo tellus.
+                        </p>
+                    </div>
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h4> Here’s Another One </h4>
+                        <p>Mauris vulputate metus eu nisl. Praesent placerat. Mauris vitae erat id ante viverra sodales. Proin tincidunt porta velit. Sed a ligula id felis rutrum placerat. Curabitur et lorem non urna tristique pharetra. Nullam luctus tristique dui. Etiam egestas scelerisque purus. Ipsum diam, hendrerit id, accumsan sit amet, fermentum vel, dui. Morbi blandit commodo tellus. 
+                        </p>
+                    </div>
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h4> The Knockout Punch </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque turpis non turpis pellentesque bibendum malesuada ipsum convallis. Curabitur eget magna in mi varius eleifend id at metus.
+                        </p>
+                    </div>
+                </div>
+            </article>
             <!-- Aside -->
-			<aside class="aside" id="aside">
+            <aside class="aside" id="aside">
                 <!-- Search Bar -->
                 <form class="search">
                     <input type="text" placeholder="Search...">
@@ -59,68 +113,8 @@
                     </div>
                 </div>
             </aside>
-            <!-- Article -->
-            <article class="article" id="article">
-                <!-- Banner Image -->
-                <div class="img-container">
-                    <img class="image" src="./img/img01.jpg" alt="Image here">
-                    <!-- Image Overlay -->
-                    <div class="img-overlay">
-                        <div class="content">
-                            <h3>Content Description</h3>
-                            <p>Add your description</p>
-                            <p>
-                                Curabitur et suscipit ipsum. Pellentesque porta interdum tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Cards -->
-                <div class="card-row">
-                    <!-- Card 1 -->
-                    <div class="card">
-                        <!-- Card Image -->
-                        <div class="card-img">
-                            <img src="./img/img02.png" alt="Image here" />
-                        </div>
-                        <!-- Card Body -->
-                        <div class="card-body">
-                            <h4> Buy our templates </h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque turpis non turpis pellentesque bibendum malesuada ipsum convallis. Curabitur eget magna in mi varius eleifend id at metus.                            </p>
-                            <a href="#" class="card-cta">Read More..</a>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="card">
-                        <!-- Card Image -->
-                        <div class="card-img">
-                            <img src="./img/img03.png" alt="Image here" />
-                        </div>
-                        <!-- Card Body -->
-                        <div class="card-body">
-                            <h4> Design tutorials </h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque turpis non turpis pellentesque bibendum malesuada ipsum convallis. Curabitur eget magna in mi varius eleifend id at metus.
-                            </p>
-                            <a href="#" class="card-cta">Read More..</a>
-                        </div>
-                    </div>
-                    <!-- Card 3 -->
-                    <div class="card">
-                        <!-- Card Image -->
-                        <div class="card-img">
-                            <img src="./img/img04.png" alt="Image here" />
-                        </div>
-                        <!-- Card Body -->
-                        <div class="card-body">
-                            <h4> Your choice for graphics </h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque turpis non turpis <a href="#">pellentesque</a> bibendum malesuada ipsum convallis. Curabitur eget magna in mi varius eleifend id at metus.
-                            </p>
-                            <a href="#" class="card-cta">Read More..</a>
-                        </div>
-                    </div>
-                </div>
-            </article>
-		</main>
+        </main>
+
         <!-- footer -->
 		<footer class="container" id="footer">
             <!-- Icons -->

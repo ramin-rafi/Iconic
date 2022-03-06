@@ -1,6 +1,6 @@
 body {
 	font: {
-	  family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	  family: "Roboto", Arial, sans-serif;
 	  size: 16px;
 	  weight: 400;
 	}
@@ -30,33 +30,43 @@ ul {
 
 a {
 	text-decoration: none;
-	color: $gray;
+	color: $black;
 
 	&:hover,
 	&:focus,
 	&:active {
-		color: $blue;
+		color: $darkorange;
 	}
 }
 
-h3 {
-	font-size: 24px;
-	line-height: 28px;
-	padding: 15px 0;
-	margin: 0;
-}
-
-h4 {
-	font-size: 20px;
-	line-height: 24px;
+h1 {
+	font-size: 32px;
+	line-height: 36px;
 	padding: 15px 0;
 	margin: 0;
 }
 
 h2 {
 	font-size: 28px;
-	line-height: 36px;
+	line-height: 32px;
 	padding: 15px 0;
+	margin: 0;
+}
+
+
+h3 {
+	font-size: 24px;
+	line-height: 28px;
+	padding: 15px 0;
+	font-weight: 500;
+	margin: 0;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 24px;
+	padding: 5px 0;
+	font-weight: 400;
 	margin: 0;
 }
 
@@ -66,7 +76,8 @@ h3,
 h4,
 h5,
 h6 {
-	color: $blue;
+	color: $darkorange;
+	margin: 0;
 }
 
 ::placeholder {
@@ -76,4 +87,8 @@ h6 {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.container-fluid {
+	max-width: 100%;
 }

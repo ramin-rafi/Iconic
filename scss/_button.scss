@@ -1,0 +1,21 @@
+.btn-primary {
+	border: 0;
+    background-image: linear-gradient($lightorange, $darkorange);
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: pointer;
+	color: $white;
+    display: inline-block;
+	text-transform: uppercase;
+    padding: 10px 65px;
+    text-align: center;
+    text-decoration: none;
+	margin: 0 10px;
+
+	&:hover,
+	&:focus,
+	&:active {
+		opacity: 0.8;
+		color: $white;
+	}
+}

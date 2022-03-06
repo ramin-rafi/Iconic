@@ -1,0 +1,19 @@
+.banner {
+	position: relative;
+	align-items: center;
+	background-image: linear-gradient($lightorange, $darkorange);
+	min-height: 280px;
+	display: flex;
+
+	.banner-content {
+		max-width: 50%;
+    	padding: 0px 60px;
+	}
+
+	.banner-image {
+		position: absolute;
+		top: 15%;
+		left: 56%;
+	}
+
+}
