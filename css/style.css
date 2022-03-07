@@ -5,7 +5,6 @@
   flex-wrap: wrap;
 }
 .navbar .logo {
-  position: absolute;
   flex: 25%;
   padding: 15px 30px 30px;
   position: absolute;
@@ -40,7 +39,7 @@
   font-weight: 600;
 }
 .navbar .nav-btn {
-  color: #b64803;
+  color: #e35901;
 }
 
 @media (max-width: 992px) {
@@ -79,6 +78,7 @@
   display: flex;
   padding: 12px 10px;
   border: 1px solid #f0f0f0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .aside .widget .widget-image {
   flex: 31%;
@@ -129,7 +129,7 @@
 }
 #footer {
   display: flex;
-  background-image: linear-gradient(#feab21, #b64803);
+  background-image: linear-gradient(#feab21, #e35901);
 }
 #footer ul {
   flex: 70%;
@@ -148,7 +148,7 @@
 #footer p {
   flex: 30%;
   font-size: 14px;
-  color: #b64803;
+  color: #e35901;
   padding: 30px 20px;
   text-align: right;
 }
@@ -420,7 +420,7 @@
 }
 
 .border {
-  border: 2px solid #b64803;
+  border: 2px solid #e35901;
 }
 .border-bottom {
   border-bottom: 2px solid;
@@ -439,14 +439,14 @@
   color: #fff !important;
 }
 .text-orange {
-  color: #b64803 !important;
+  color: #e35901 !important;
 }
 .text-black {
   color: #000 !important;
 }
 
 body {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin: 0 auto;
@@ -477,7 +477,7 @@ a {
   color: #000;
 }
 a:hover, a:focus, a:active {
-  color: #b64803;
+  color: #e35901;
 }
 
 h1 {
@@ -524,7 +524,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #b64803;
+  color: #e35901;
   margin: 0;
 }
 
@@ -544,7 +544,7 @@ h6 {
 .banner {
   position: relative;
   align-items: center;
-  background-image: linear-gradient(#feab21, #b64803);
+  background-image: linear-gradient(#feab21, #e35901);
   min-height: 280px;
   display: flex;
 }
@@ -584,7 +584,7 @@ h6 {
 }
 .btn-primary {
   border: 0;
-  background-image: linear-gradient(#feab21, #b64803);
+  background-image: linear-gradient(#feab21, #e35901);
   border-radius: 4px;
   box-shadow: none;
   cursor: pointer;
@@ -612,6 +612,7 @@ h6 {
   display: flex;
 }
 .signup-panel .tagline {
+  font-family: Georgia, "Times New Roman", Times, serif;
   flex: 40%;
   padding: 0 25px;
   letter-spacing: -0.5px;
