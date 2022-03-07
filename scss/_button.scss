@@ -19,3 +19,10 @@
 		color: $white;
 	}
 }
+
+
+@media (max-width: 992px) {
+	.btn-primary {
+		padding: 10px 35px;
+	}
+}

@@ -55,9 +55,10 @@
 
 @media (max-width: 425px) {
 	.navbar {
-		ul {
-			li {
-				padding: 7px;
+		.menu {
+			text-align: center;
+			ul {
+				border: none;
 			}
 		}
 	}

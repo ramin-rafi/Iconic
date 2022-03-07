@@ -13,7 +13,40 @@
 	.banner-image {
 		position: absolute;
 		top: 15%;
-		left: 56%;
+		right: 3%;
+	}
+}
+
+
+@media (max-width: 992px) {
+	.banner {
+		flex-direction: column;
+
+		.banner-content {
+			padding: 15px 0;
+			max-width: 85%;
+		}
+
+		.banner-image {
+			position: relative;
+		}
+	}
+}
+
+
+@media (max-width: 540px) {
+	.banner {
+		.banner-image {
+			img {
+				max-width: 320px;
+			}
+		}
 	}
 
+	.signup-panel {
+		display: block !important;
+		.tagline {
+			padding: 10px 25px !important;
+		}
+	}
 }

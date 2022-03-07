@@ -2,41 +2,15 @@
 
 .main-body {
 	padding: $mp-0 $mp-2;
-
-	.signup-panel {
-		padding: 30px 0;
-		box-shadow: 2px 2px 20px $lightgray;
-		display: flex;
-
-
-		.tagline {
-			flex: 50%;
-			padding: 0 80px 0 25px;
-			letter-spacing: -0.5px;
-		}
-
-		.signup-btns {
-			flex: 50%;
-			text-align: right;
-		}
-	}
-
+	display: flex;
+	box-shadow: 2px 2px 20px $lightgray;
 
 	.aside {
-		flex: 25%;
+		flex: 30%;
 	}
 
 	.article {
-		flex: 75%;
-	}
-
-	.card-row {
-		display: flex;
-		flex-wrap: wrap;
-
-		.card {
-			flex: 0 0 33.33%;
-		}
+		flex: 70%;
 	}
 }
 
@@ -48,10 +22,6 @@
 		.article,
 		.aside {
 			margin: 0;
-		}
-
-		.card-row {
-			display: block;
 		}
 	}
 }
