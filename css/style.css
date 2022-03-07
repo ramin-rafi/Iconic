@@ -5,8 +5,15 @@
   flex-wrap: wrap;
 }
 .navbar .logo {
+  position: absolute;
   flex: 25%;
-  padding: 0 25px;
+  padding: 15px 30px 30px;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  top: 5%;
+  left: 12%;
+  z-index: 999;
 }
 .navbar .logo h1 {
   font-size: 40px;
@@ -18,6 +25,7 @@
 .navbar .menu {
   flex: 75%;
   text-align: right;
+  padding-top: 30px;
 }
 .navbar .menu ul {
   list-style: none;
@@ -35,23 +43,26 @@
   color: #b64803;
 }
 
+@media (max-width: 992px) {
+  .navbar .logo {
+    padding: 20px 0 !important;
+    position: relative !important;
+    top: 0;
+    left: 0 !important;
+  }
+  .navbar .menu {
+    text-align: center;
+  }
+  .navbar .menu ul {
+    border: none;
+  }
+}
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: center;
     margin: 0;
     padding: 0;
-  }
-  .navbar .logo {
-    padding: 20px 0;
-  }
-}
-@media (max-width: 425px) {
-  .navbar .menu {
-    text-align: center;
-  }
-  .navbar .menu ul {
-    border: none;
   }
 }
 .aside {
