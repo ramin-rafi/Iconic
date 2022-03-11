@@ -7,13 +7,8 @@
 
 	.logo {
 		flex: 25%;
-		padding: 15px 30px 30px;
-		position: absolute;
 		background-color: white;
 		border-radius: 10px;
-		top: 5%;
-		left: 12%;
-		z-index: 999;
 
 		h1 {
 			font-size: 40px;
@@ -33,17 +28,12 @@
 			margin: 0;
 			padding: 0;
 			display: inline-flex;
-			border-left: 1px solid $darkgray;
 			li {
 				padding: 10px;
 				text-transform: uppercase;
 				font-weight: 600;
 			}
 		}
-	}
-
-	.nav-btn {
-		color: $darkorange;
 	}
 }
 

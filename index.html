@@ -12,7 +12,7 @@
 		<!-- header -->
 		<header class="container-fluid" id="header">
             <!-- Navbar -->
-			<nav class="navbar container">
+			<nav class="container navbar">
                 <!-- Logo -->
                 <div class="logo py-1 pb-2">
                     <a href="#">
@@ -27,10 +27,8 @@
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Media</a></li>
                         <li><a href="#">Blog</a></li>
-                    </ul>
-                    <ul class="nav-btn">
-                        <li>Signup</li>
-                        <li>Login</li>
+                        <li><a href="#">Signup</a></li>
+                        <li><a href="#">Login</a></li>
                     </ul>
                 </div>
 			</nav>
@@ -38,30 +36,29 @@
         <!--- iconic banner-->
         <section class="container banner" id="banner">
             <div class="banner-content">
-                <h2 class="py-0 text-white">HOT DAMN! THIS IS THE PRODUCT
-                    YOU’VE BEEN WAITING FOR!</h2>
-                <h4 class="py-0 text-white">ISN’T IT ABOUT TIME YOU STARTED WORKING WITH
-                    A PRODUCT LIKE THIS... LET’S GET STARTED!</h4>
+                <h1 class="py-0 text-white">HOT DAMN! THIS IS THE PRODUCT
+                    YOU’VE BEEN WAITING FOR!</h1>
+                <p class="py-0 text-white">ISN’T IT ABOUT TIME YOU STARTED WORKING WITH
+                    A PRODUCT LIKE THIS... LET’S GET STARTED!</p>
             </div>
             <div class="banner-image">
                 <img src="./img/laptop.png" alt="Image here">
             </div>
         </section>
          <!--- signup pannel" -->
-        <section class="container signup-panel" id="signup-panel">
+        <div class="container signup-panel">
             <div class="tagline">
-                <h4 class="text-black"><i>This is your tagline. Tell your viewers who you are. 
-                Be loud, confident, & sophisticated.</i></h4>
+                <p class="text-black"><i>This is your tagline. Tell your viewers who you are. 
+                Be loud, confident, & sophisticated.</i></p>
             </div>
             <div class="signup-btns">
                 <a class="btn-primary" href="#">sign up now</a>
                 <a class="btn-primary" href="#">learn more</a>
             </div>
-        </section>
+        </div>
          <!--- iconic main body -->
         <main class="container main-body py-1" id="main-body">
-            <!-- Article -->
-            <article class="article" id="article">
+            <div class="main-body-content">
                 <h3 class="text-black">WHAT DO WE DO?</h3>
                 <!-- Cards -->
                 <div class="card-row">
@@ -84,68 +81,68 @@
                         </p>
                     </div>
                 </div>
-            </article>
-            <!-- Aside -->
-            <aside class="aside" id="aside">
+            </div>
+
+            <article class="article" id="article">
                 <h3 class="widget-heading text-black">FROM THE BLOG</h3>
                 <div class="widget">
                     <div class="widget-image">
-                        <img src="./img/w1.png" alt="Image here">
+                        <a href="#"><img src="./img/w1.png" alt="Image here"></a>
                     </div>
                     <div class="widget-content">
-                        <h5>This is a Blog Post Title</h5>
-                        <p>Author Name on Jan 01, 2010</p>
+                        <div class="widget-title">This is a Blog Post Title</div>
+                        <span>Author Name on Jan 01, 2010</span>
                     </div>
                 </div>
                 <div class="widget">
                     <div class="widget-image">
-                        <img src="./img/w2.png" alt="Image here">
+                        <a href="#"><img src="./img/w2.png" alt="Image here"></a>
                     </div>
                     <div class="widget-content">
-                        <h5>Blink! Time to Think</h5>
-                        <p>Malcolm Gladwell on Jan 01, 2010</p>
+                        <div class="widget-title">Blink! Time to Think</div>
+                        <span>Malcolm Gladwell on Jan 01, 2010</span>
                     </div>
                 </div>
                 <div class="widget">
                     <div class="widget-image">
-                        <img src="./img/w4.png" alt="Image here">
+                        <a href="#"><img src="./img/w4.png" alt="Image here"></a>
                     </div>
                     <div class="widget-content">
-                        <h5>Midnight Tides Re-released</h5>
-                        <p>Steven Erikson on Dec. 31, 2009</p>
+                        <div class="widget-title">Midnight Tides Re-released</div>
+                        <span>Steven Erikson on Dec. 31, 2009</span>
                     </div>
                 </div>
                 <div class="widget">
                     <div class="widget-image">
-                        <img src="./img/w3.png" alt="Image here">
+                        <a href="#"><img src="./img/w3.png" alt="Image here"></a>
                     </div>
                     <div class="widget-content">
-                        <h5>You Shall Know Our Velocity</h5>
-                        <p>Dave Eggers on Dec. 29, 2009</p>
+                        <div class="widget-title">You Shall Know Our Velocity</div>
+                        <span>Dave Eggers on Dec. 29, 2009</span>
                     </div>
                 </div>
-            </aside>
+            </article>
         </main>
 
         <!-- Section -->
         <div class="container card-section my-2" id="card-section">
             <figure class="card">
-                <img src="./img/card-01.png"
-                    alt="Image here">
+                <a href="#"><img src="./img/card-01.png"
+                    alt="Image here"></a>
                 <figcaption class="card-caption">Envato Mothership Site</figcaption>
             </figure>
             <figure class="card">
-                <img src="./img/card-02.png"
-                    alt="Image here">
+                <a href="#"><img src="./img/card-02.png"
+                    alt="Image here"></a>
                 <figcaption class="card-caption">PSDTUTS Redesign</figcaption>
             </figure>
             <figure class="card">
-                <img src="./img/card-03.png"
-                    alt="Image here">
+                <a href="#"><img src="./img/card-03.png"
+                    alt="Image here"></a>
             </figure>
         </div>
 
-        <!-- footer -->
+		<!-- footer -->
 		<footer class="container" id="footer">
             <!-- Icons -->
 			<ul>
@@ -167,7 +164,7 @@
                 </li>
             </ul>
             <!-- Copyright -->
-            <p>Copyright © 2010 Minimal. All rights reserved. </p>
+            <span class="copyrights">Copyright © 2010 Minimal. All rights reserved. </span>
 		</footer>
 	</body>
 </html>

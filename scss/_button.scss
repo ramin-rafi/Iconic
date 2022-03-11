@@ -1,6 +1,7 @@
 .btn-primary {
 	border: 0;
     background-image: linear-gradient($lightorange, $darkorange);
+	background-color: $darkorange;
     border-radius: 4px;
     box-shadow: none;
     cursor: pointer;
@@ -15,7 +16,8 @@
 	&:hover,
 	&:focus,
 	&:active {
-		opacity: 0.8;
+		background-image: linear-gradient($darkorange, $lightorange);
+		background-color: $lightorange;
 		color: $white;
 	}
 }

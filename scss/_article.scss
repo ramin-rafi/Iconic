@@ -1,6 +1,52 @@
-//Article SCSS
-
+// Article SCSS
 .article {
-	padding: 10px 0;
-}
+	padding: 20px 0;
 
+	.widget-heading {
+		background-image: linear-gradient($white, $lightgray);
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 5px 5px 0 0;
+		border: 1px solid $lightgray;
+	}
+
+	.widget {
+		display: flex;
+		padding: 12px 10px;
+		border: 1px solid $lightgray;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+		.widget-image {
+			flex: 31%;
+			border: 1px solid $lightgray;
+			margin-right: 5px;
+
+			img {
+				border: 4px solid $white;
+				margin: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		.widget-content {
+			flex: 69%;
+			margin-left: 5px;
+			padding-top: 10px;
+			vertical-align: middle;
+
+			.widget-title {
+				font-size: 14px;
+				line-height: 18px;
+				padding: 5px 0;
+				color: $darkorange;
+			}
+
+			span{
+				font-size: 12px;
+				line-height: 14px;
+				opacity: 0.4;
+			}
+		}
+	}
+}

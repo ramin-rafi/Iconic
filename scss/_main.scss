@@ -5,11 +5,15 @@
 	display: flex;
 	box-shadow: 2px 2px 20px $lightgray;
 
-	.aside {
-		flex: 30%;
+	.main-body-content {
+		padding: 10px 0;
 	}
 
 	.article {
+		flex: 30%;
+	}
+
+	.main-body-content {
 		flex: 70%;
 	}
 }
@@ -20,7 +24,7 @@
 		padding: 0 15px;
 
 		.article,
-		.aside {
+		.main-body-content {
 			margin: 0;
 		}
 	}

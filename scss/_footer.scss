@@ -3,6 +3,7 @@
 #footer {
 	display: flex;
 	background-image: linear-gradient($lightorange, $darkorange);
+
 	ul {
 		flex: 70%;
 		display: inline-flex;
@@ -10,6 +11,7 @@
 
 		li {
 			padding: 10px;
+			font-size: 14px;
 			a {
 				color: $white;
 
@@ -21,7 +23,7 @@
 			}
 		}
 	}
-	p {
+	.copyrights {
 		flex: 30%;
 		font-size: 14px;
 		color: $darkorange;
