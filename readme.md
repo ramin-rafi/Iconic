@@ -1,5 +1,5 @@
 Clone this repository using command:
-**git clone https://github.com/ramin-rafi/Minimal.git**
+**git clone https://github.com/ramin-rafi/Iconic.git**
 
 Install npm dependencies
 **npm install OR npm i**
