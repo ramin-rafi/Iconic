@@ -5,16 +5,13 @@
 	display: flex;
 	box-shadow: 2px 2px 20px $lightgray;
 
-	.main-body-content {
-		padding: 10px 0;
-	}
-
 	.article {
 		flex: 30%;
 	}
 
 	.main-body-content {
 		flex: 70%;
+		padding: 10px 0;
 	}
 }
 

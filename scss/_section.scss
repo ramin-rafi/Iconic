@@ -43,8 +43,8 @@
 
 @media (max-width: 992px) {
 	.widget-content {
-		h5,
-		p {
+		.widget-title,
+		span {
 			word-break: break-all;
 		}
 	}
