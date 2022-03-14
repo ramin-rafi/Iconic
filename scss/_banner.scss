@@ -1,20 +1,24 @@
 .banner {
 	position: relative;
 	align-items: center;
-	background-image: linear-gradient($lightorange, $darkorange);
-	background-color: $darkorange;
 	min-height: 280px;
 	display: flex;
 
 	.banner-content {
 		max-width: 50%;
-    	padding: 0px 60px;
+		padding: 0px 60px;
 	}
 
 	.banner-image {
 		position: absolute;
-		top: 15%;
+		bottom: -6%;
 		right: 3%;
+	}
+
+	.banner-subheading {
+		font-size: 18px;
+		line-height: 22px;
+		font-weight: 400;
 	}
 }
 

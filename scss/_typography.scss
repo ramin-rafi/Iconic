@@ -366,3 +366,15 @@
 		color: $black !important;
 	}
 }
+
+.bg {
+	&-gradient {
+		background-image: linear-gradient($lightorange, $darkorange);
+		background-color: $darkorange;
+
+		&-light {
+			background-image: linear-gradient($white, $lightgray);
+			background-color: $lightgray;
+		}
+	}
+}
